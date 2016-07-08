@@ -17,21 +17,24 @@ Otherwise your changes will be overwritten the next time you save the extension 
 
 <f:flashMessages />
 
-<table  class="tx_iumultihosts" >
+<table  class="tx_iumultihosts table table-striped table-hover" >
 	<tr>
 		<th><f:translate key="tx_iumultihosts_domain_model_color.name" /></th>
-		<th> </th>
 		<th> </th>
 	</tr>
 
 	<f:for each="{colors}" as="color">
 		<tr>
 			<td><f:link.action action="show" arguments="{color : color}"> {color.name}</f:link.action></td>
-			<td><f:link.action action="edit" arguments="{color : color}">Edit</f:link.action></td>
-			<td><f:link.action action="delete" arguments="{color : color}">Delete</f:link.action></td>
+			<td>
+                           <div role="group" class="btn-group">
+                              <!--<f:link.action action="edit" class="btn btn-default" arguments="{color : color}"><span class="t3-icon fa fa-pencil"/></f:link.action> -->
+                              <f:link.action action="delete" class="btn btn-default" arguments="{color : color}"><span class="t3-icon fa fa-trash"/></f:link.action>
+                           </div>
+                        </td>
 		</tr>
 	</f:for>
 </table>
 
-<f:link.action action="new">New Color</f:link.action>
+<f:link.action action="new"><span class="btn btn-default"><span class="t3-icon fa fa-add">&nbsp;</span></span><span>Add new color</span></f:link.action>
 </f:section>

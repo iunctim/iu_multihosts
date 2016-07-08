@@ -17,11 +17,10 @@ Otherwise your changes will be overwritten the next time you save the extension 
 
 <f:flashMessages />
 
-<table  class="tx_iumultihosts" >
+<table  class="table table-striped table-hover" >
 	<tr>
 		<th><f:translate key="tx_iumultihosts_domain_model_language.name" /></th>
 		<th><f:translate key="tx_iumultihosts_domain_model_language.localeall" /></th>
-		<th> </th>
 		<th> </th>
 	</tr>
 
@@ -29,11 +28,15 @@ Otherwise your changes will be overwritten the next time you save the extension 
 		<tr>
 			<td><f:link.action action="show" arguments="{language : language}"> {language.name}</f:link.action></td>
 			<td><f:link.action action="show" arguments="{language : language}"> {language.localeall}</f:link.action></td>
-			<td><f:link.action action="edit" arguments="{language : language}">Edit</f:link.action></td>
-			<td><f:link.action action="delete" arguments="{language : language}">Delete</f:link.action></td>
+                  	<td>
+                           <div role="group" class="btn-group">
+                              <!-- <f:link.action action="edit" class="btn btn-default" arguments="{language : language}"><span class="t3-icon fa fa-pencil"/></f:link.action> -->
+                              <f:link.action action="delete" class="btn btn-default" arguments="{language : language}"><span class="t3-icon fa fa-trash"/></f:link.action>
+                           </div>
+                        </td>
 		</tr>
 	</f:for>
 </table>
 
-<f:link.action action="new">New Language</f:link.action>
+<f:link.action action="new"><span class="btn btn-default"><span class="t3-icon fa fa-add">&nbsp;</span></span><span>Add new language</span></f:link.action>
 </f:section>

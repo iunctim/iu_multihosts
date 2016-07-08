@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-07-07T10:27:18Z" product-name="iu_multihosts">
+		<header/>
+		<body>
+			<trans-unit id="tx_iumultihosts_domain_model_host">
+				<source>Host</source>
+			</trans-unit>
+			<trans-unit id="tx_iumultihosts_domain_model_host.url">
+				<source>Url</source>
+			</trans-unit>
+			<trans-unit id="tx_iumultihosts_domain_model_host.title">
+				<source>Title</source>
+			</trans-unit>
+			<trans-unit id="tx_iumultihosts_domain_model_host.email">
+				<source>Email</source>
+			</trans-unit>
+			<trans-unit id="tx_iumultihosts_domain_model_host.extensions">
+				<source>Extensions</source>
+			</trans-unit>
+			<trans-unit id="tx_iumultihosts_domain_model_host.usergroup">
+				<source>Usergroup</source>
+			</trans-unit>
+			<trans-unit id="tx_iumultihosts_domain_model_host.piwik">
+				<source>Piwik</source>
+			</trans-unit>
+			<trans-unit id="tx_iumultihosts_domain_model_host.color">
+				<source>Color</source>
+			</trans-unit>
+			<trans-unit id="tx_iumultihosts_domain_model_host.language">
+				<source>Language</source>
+			</trans-unit>
+			<trans-unit id="tx_iumultihosts_domain_model_color">
+				<source>Color</source>
+			</trans-unit>
+			<trans-unit id="tx_iumultihosts_domain_model_color.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_iumultihosts_domain_model_language">
+				<source>Language</source>
+			</trans-unit>
+			<trans-unit id="tx_iumultihosts_domain_model_language.name">
+				<source>Name</source>
+			</trans-unit>
+			<trans-unit id="tx_iumultihosts_domain_model_language.localeall">
+				<source>Localeall</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

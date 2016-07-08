@@ -1,0 +1,12 @@
+
+ # Module configuration
+module.tx_iumultihosts_tools_iumultihostsmanagehosts {
+	persistence {
+		storagePid = {$module.tx_iumultihosts_managehosts.persistence.storagePid}
+	}
+	view {
+		templateRootPaths.0 = {$module.tx_iumultihosts_managehosts.view.templateRootPath}
+		partialRootPaths.0 = {$module.tx_iumultihosts_managehosts.view.partialRootPath}
+		layoutRootPaths.0 = {$module.tx_iumultihosts_managehosts.view.layoutRootPath}
+	}
+}

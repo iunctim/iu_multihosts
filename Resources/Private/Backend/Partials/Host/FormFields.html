@@ -1,0 +1,75 @@
+<table class="table table-striped table-hover" >
+   <tr>
+      <td width="20%">
+         <label for="url">
+            <f:translate key="tx_iumultihosts_domain_model_host.url" />
+         </label>
+      </td>
+      <td width="80%">
+	<f:form.textfield property="url" class="form-control" pattern="^(?!\-)(?:[a-zA-Z\d\-]{0,62}[a-zA-Z\d]\.){1,126}(?!\d+)[a-zA-Z\d]{1,63}$" title="Valid URL (e. g. 'odv.awi.de')"/>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <label for="title">
+            <f:translate key="tx_iumultihosts_domain_model_host.title" />
+         </label>
+      </td>
+      <td>
+         <f:form.textfield property="title" class="form-control" />
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <label for="email">
+            <f:translate key="tx_iumultihosts_domain_model_host.email" />
+         </label>
+      </td>
+      <td>
+         <f:form.textfield property="email" class="form-control" />
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <label for="piwik">
+            <f:translate key="tx_iumultihosts_domain_model_host.piwik" />
+         </label>
+      </td>
+      <td>
+         <f:form.textfield property="piwik" class="form-control" />
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <label for="extensions">
+            <f:translate key="tx_iumultihosts_domain_model_host.extensions" />
+         </label>
+      </td>
+      <td>
+         <f:form.checkbox property="extensions" value="news" multiple="1" />&nbsp; news<br/>
+         <f:form.checkbox property="extensions" value="powermail" multiple="1" />&nbsp; powermail<br/>
+         <f:form.checkbox property="extensions" value="yag" multiple="1" />&nbsp; yag<br/>
+         <f:form.checkbox property="extensions" value="cal" multiple="1" />&nbsp; cal<br/>
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <label for="color">
+            <f:translate key="tx_iumultihosts_domain_model_host.color" />
+         </label>
+      </td>
+      <td>
+         <f:form.select property="color" options="{colors}" optionLabelField="name" class="form-control" />
+      </td>
+   </tr>
+   <tr>
+      <td>
+         <label for="language">
+            <f:translate key="tx_iumultihosts_domain_model_host.language" />
+         </label>
+      </td>
+      <td>
+         <f:form.select property="language" options="{languages}" optionLabelField="name" class="form-control" />
+      </td>
+   </tr>
+</table>

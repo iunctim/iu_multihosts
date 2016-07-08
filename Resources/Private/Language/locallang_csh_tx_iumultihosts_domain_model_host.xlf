@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<xliff version="1.0">
+	<file source-language="en" datatype="plaintext" original="messages" date="2016-07-07T10:27:18Z" product-name="iu_multihosts">
+		<header/>
+		<body>
+			<trans-unit id="url.description">
+				<source>url</source>
+			</trans-unit>
+			<trans-unit id="title.description">
+				<source>title</source>
+			</trans-unit>
+			<trans-unit id="email.description">
+				<source>email</source>
+			</trans-unit>
+			<trans-unit id="extensions.description">
+				<source>extensions</source>
+			</trans-unit>
+			<trans-unit id="usergroup.description">
+				<source>usergroup</source>
+			</trans-unit>
+			<trans-unit id="piwik.description">
+				<source>piwik</source>
+			</trans-unit>
+			<trans-unit id="color.description">
+				<source>color</source>
+			</trans-unit>
+			<trans-unit id="language.description">
+				<source>language</source>
+			</trans-unit>
+		</body>
+	</file>
+</xliff>

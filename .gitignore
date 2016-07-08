@@ -1,0 +1,5 @@
+.*
+*.*~
+!.gitignore
+changeRevision.php
+/Tests/Functional/Logger/Logs/
